@@ -49,3 +49,5 @@ this.$cookies.set("user", user);
 [[GitHub]](https://github.com/ElemeFE/vue-infinite-scroll)
 [[in Vuejs]](https://www.jianshu.com/p/c4abab8c1ba6)
  
+ 
+ 
