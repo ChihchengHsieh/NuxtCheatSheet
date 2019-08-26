@@ -26,6 +26,19 @@ npx create-nuxt-app <project-name>
 [[Nuxt Proxy]](https://zh.nuxtjs.org/faq/http-proxy/)
 
 
+Proxy setting
+```
+  proxy: {
+    "/api": {
+      target: "http://localhost:8080",
+      pathRewrite: {
+        "^/api": "/"
+      }
+    }
+  },
+
+```
+
 
 #### Adding Cookies if needed
 [[Nuxt Cookies]](https://www.npmjs.com/package/cookie-universal-nuxt)
