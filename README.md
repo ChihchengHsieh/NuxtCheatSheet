@@ -62,6 +62,23 @@ this.$cookies.set("user", user);
 [[GitHub]](https://github.com/ElemeFE/vue-infinite-scroll)
 [[in Vuejs]](https://www.jianshu.com/p/c4abab8c1ba6)
  
+Add a Plugin "vue-infinite-scroll.js"
+ ```javascript
+import Vue from 'vue';
+import infiniteScroll from 'vue-infinite-scroll';
+
+export default () => {
+  Vue.use(infiniteScroll)
+}
+ ```
+ In nuxt.config.js
+ 
+ ```javascript
+  plugins: [{
+    src: '~plugins/vue-infinite-scroll',
+    ssr: false
+  }],
+ ```
  
  
  #### Install marked if using markdown
